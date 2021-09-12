@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.container{
+    border: 2px solid skyblue;
+    width: 90%;
+    margin:20px auto;
+    padding: 5px 25px;
+
+}
+label{
+    font-size: 22px;
+    width:180px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 30px 0px;
+    font-weight: bolder;
+}
+
+input{
+   padding: 10px 5px;
+   border: none;
+   border-bottom: 2px solid skyblue;
+    outline: none;
+    border-radius: 4px;
+    margin: 0px 40px 0px 0px;
+    width: 25%;
+    cursor: pointer;
+    
+    
+}
+body{
+
+    background-image: linear-gradient(#000000, #4cbae6, #020000);
+    
+    color:white;
+}
+
+
+
+h1{
+    width: 150px;
+    margin:  auto;
+    margin-top: 10px;
+    position: relative;
+    bottom: 0;
+    top: 10px;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+input[type=radio]{
+    margin-right: 10px;
+    padding-right: 5px;
+}
+
+#add{
+    width:760px;
+}
+
+button{
+    margin-top: 50px;
+    margin-left: 40%;
+    border: 1px solid rgb(151, 230, 250);
+    outline: none;
+    width: 220px;
+    font-size: 28px;
+    border-radius: 10px;
+    padding: 10px 12px;
+    cursor: pointer;
+    background-color: rgb(0, 174, 255);
+}
+#male, #female:focus{
+    border: none;
+    box-shadow: none;
+}
+input:focus{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    
+}
+@media screen and (min-width:420px) and (max-width:1020px)  {
+    form , input{
+        display: block;
+        width: 100%;
+     
+    }
+    form{
+        border: none;
+        height: auto;
+        
+        
+    }
+    
+body{
+
+    background-image: linear-gradient(#9dc7cf, #4ec0ec, #afdff1);
+}
+
+    .container{
+        border: 2px solid rgb(13, 162, 221);
+        padding: 5px 25px;
+        width: 90%;
+        margin: 20px auto;
+        border-radius: 10px;
+        color: rgb(0, 0, 0);
+    }
+    form{
+        height: auto;
+    }
+    button{
+        margin: 25px 0%;
+        border: 1px solid rgb(151, 230, 250);
+        outline: none;
+        font-size: 28px;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 10px 12px;
+        width: 100%;
+        background-color: rgb(0, 174, 255);
+    }
+
+    label{
+        margin: 15px 0px;
+    }
+    .gender{
+        margin-top: 30px;
+        width: 130px;
+    }
+    input[type=radio]{
+        display: inline-block;
+     
+    }
+  
+  #add{
+      width: 100%;
+  }
+  input{
+    border: none;
+    border-bottom: 2px solid rgb(14, 174, 223);
+  }
+}
+
+
+
+
+

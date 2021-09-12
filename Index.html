@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body> <h1>Registration</h1>
+    <div class="container"> 
+        
+        <form action="/" method="post" class="form">
+            <label for="userName">Firstname</label>
+            <input type="text" id="userName" name="Username"  placeholder="Enter your Firstname" maxlength="15">
+
+
+
+            <label for="lastName">Lastname</label>
+            <input type="text"  id="lastName" name="lastname"  placeholder="Enter your Lastname" maxlength="7"> <br>
+
+
+
+
+            <label class="dob" for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob" placeholder="select your Date Of Birth" >
+            
+
+
+
+        <label class="gender">Gender </label>
+
+            <input style="width: 20px;" type="radio" name="gender" value="Male" id="male">
+             <label style="width: 50px;margin-right: 15px;" for="male"> Male </label> 
+            
+            <input style="width: 20px;"  type="radio" name="gender" value="Female" id="female">
+            <label style="width:20px ;" for="female">Female </label> <br>
+
+
+
+
+
+
+
+            <label class="add" for="add">Address</label>
+            <input type="text" name="Address" placeholder="Enter your  Residential Address" id="add">
+            
+
+
+            <br>
+            <label for="phno">Mobile number</label>
+            <input type="number" name="number" id="phno" placeholder="Enter your Phone number" maxlength="10">
+          
+
+
+
+
+            <label for="mail">Email</label>
+            <input  type="email" name="EMail" placeholder="Type your Email" id="mail" >
+            <br>
+
+
+
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your Password" class="pwd">
+
+
+            <label for="confirmpassword">Confirm Password</label>
+            <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Please Confirm your Password">
+            <br>
+            <button type="submit" id="btn">Click  to Finish</button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
